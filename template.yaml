@@ -56,6 +56,20 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+
+    - title: Credentials
+      required:
+        - accessToken
+      properties:
+        accessToken:
+          title: accessToken
+          type: string
+          description: Token para ejecutar back de Mauricio
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+
+
     #- title: Choose a location
     #  required:
     #    - repoUrl
@@ -88,7 +102,7 @@ spec:
         repoUrl: 'github.com?repo=build--scaffold&owner=maocq'
         workflowId: '32474166'
         branchOrTagName: main
-        token: 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
+        token: ${{ parameters.accessToken }}
         workflowInputs:
           data: '{"models" : ["User", "Juanes"], "useCases" : ["CreateUser", "NewAccount"]}'
 
