@@ -36,7 +36,7 @@ spec:
         type:
           title: Type
           type: string
-          description: Reactivo o imperativo
+          description: reactive or imperative
           ui:autofocus: true
           ui:options:
             rows: 5
@@ -44,7 +44,7 @@ spec:
           title: Type
           type: string
           default: jacoco
-          description: Cobertura pruebas unitarias
+          description: coverage
           ui:autofocus: true
           ui:options:
             rows: 5
@@ -64,7 +64,7 @@ spec:
         accessToken:
           title: accessToken
           type: string
-          description: Token para ejecutar back de Mauricio
+          description: Token to execute back from Mauricio's repository
           ui:autofocus: true
           ui:options:
             rows: 5
