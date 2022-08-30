@@ -66,6 +66,7 @@ spec:
           type: string
           description: Token to execute back from Mauricio's repository
           ui:autofocus: true
+          ui:widget: password
           ui:options:
             rows: 5
 
