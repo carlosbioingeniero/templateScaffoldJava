@@ -2,9 +2,10 @@ apiVersion: scaffolder.backstage.io/v1beta3
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
 kind: Template
 metadata:
-  name: example-scaffold-clean_architecture
+  name: Scaffold-Clean-Architecture
   title: Scaffold Clean Architecture Java
   description: Crea un artefacto basado en el Scaffold de Clean Architecture para Java
+  tags: ['recommended', 'java', 'Clean Architecture'] 
 spec:
   owner: user:guest
   type: service
