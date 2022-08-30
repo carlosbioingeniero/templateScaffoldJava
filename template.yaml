@@ -5,7 +5,7 @@ metadata:
   name: Scaffold-Clean-Architecture
   title: Scaffold Clean Architecture Java
   description: Crea un artefacto basado en el Scaffold de Clean Architecture para Java
-  tags: ['recommended', 'java', 'Clean Architecture'] 
+  tags: ['recommended', 'java', 'clean-architecture'] 
 spec:
   owner: user:guest
   type: service
